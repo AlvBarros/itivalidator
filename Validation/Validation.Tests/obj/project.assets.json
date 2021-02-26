@@ -3521,19 +3521,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alvba\\.nuget\\packages\\": {}
+    "/Users/t729605/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation.Tests\\Validation.Tests.csproj",
+      "projectUniqueName": "/Users/t729605/Desktop/itivalidator/Validation/Validation.Tests/Validation.Tests.csproj",
       "projectName": "Validation.Tests",
-      "projectPath": "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation.Tests\\Validation.Tests.csproj",
-      "packagesPath": "C:\\Users\\alvba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation.Tests\\obj\\",
+      "projectPath": "/Users/t729605/Desktop/itivalidator/Validation/Validation.Tests/Validation.Tests.csproj",
+      "packagesPath": "/Users/t729605/.nuget/packages/",
+      "outputPath": "/Users/t729605/Desktop/itivalidator/Validation/Validation.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alvba\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/t729605/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -3543,9 +3543,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation\\Validation.csproj": {
-              "projectPath": "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation\\Validation.csproj"
+            "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj": {
+              "projectPath": "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj"
             }
           }
         }
@@ -3558,6 +3559,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -3586,12 +3588,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

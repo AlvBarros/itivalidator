@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/t729605/Desktop/itivalidator-main/Validation/Validation/Validation.csproj": {}
+    "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj": {}
   },
   "projects": {
-    "/Users/t729605/Desktop/itivalidator-main/Validation/Validation/Validation.csproj": {
+    "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/t729605/Desktop/itivalidator-main/Validation/Validation/Validation.csproj",
+        "projectUniqueName": "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj",
         "projectName": "Validation",
-        "projectPath": "/Users/t729605/Desktop/itivalidator-main/Validation/Validation/Validation.csproj",
+        "projectPath": "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj",
         "packagesPath": "/Users/t729605/.nuget/packages/",
-        "outputPath": "/Users/t729605/Desktop/itivalidator-main/Validation/Validation/obj/",
+        "outputPath": "/Users/t729605/Desktop/itivalidator/Validation/Validation/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/t729605/.nuget/NuGet/NuGet.Config"
