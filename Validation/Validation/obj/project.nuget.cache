@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wEDwbR73zvLL2VKU9DteHUaIs8zO1lCwySXQ2KCxB019CaeLVmp1NddAuG0MR49QAT8/VDgEZO/6tGRXJdUEFg==",
+  "dgSpecHash": "VM2HCWg6+LcCDy9yk2HOCFpym0Snhd26JeTNc0wiwk/3bZK6g29uvhIemsItyLg5O4bvh2Elkpor1brwWnYi2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation\\Validation.csproj",
+  "projectFilePath": "/Users/t729605/Desktop/itivalidator-main/Validation/Validation/Validation.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alvba\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\alvba\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "/Users/t729605/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/t729605/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

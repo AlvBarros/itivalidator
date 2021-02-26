@@ -1,15 +1,21 @@
+using Validation.Interfaces;
+
 namespace Validation.Password
 {
-    public class Password
+    /// <summary>
+    /// Password model for validation
+    /// </summary>
+    public class Password : IValidated<string>
     {
-        public bool IsValid { get; private set; }
-        public string Value { get; private set; }
-
+        /// <summary>
+        /// Instantiate new Password object with given value
+        /// </summary>
+        /// <param name="value">The value of the password</param>
         public Password(string value)
         {
-            PasswordValidator validator = new PasswordValidator();
-            this.IsValid = validator.Validate(value);
-            this.Value = value;
-        }   
+            base.Validator = new PasswordValidator();
+            base.Value = value;
+        }
+        
     }
 }
