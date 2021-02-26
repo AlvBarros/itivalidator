@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ItiChallengeApi</name>
+    </assembly>
+    <members>
+        <member name="T:ItiChallengeApi.Validation.ValidationController">
+            <summary>
+            This controller is responsible for doing validations on varied inputs.
+            </summary>
+        </member>
+        <member name="M:ItiChallengeApi.Validation.ValidationController.ValidatePassword(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            This POST method returns if the given object contains a valid password.
+            </summary>
+            <returns>Either true or false</returns>
+        </member>
+    </members>
+</doc>
