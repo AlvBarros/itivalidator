@@ -1,6 +1,7 @@
 # Descrição
 
 Segunda etapa do processo para Engenharia de Software Backend Sênior - Desafio técnico
+
 https://github.com/itidigital/backend-challenge
 
 ## Problema
@@ -76,3 +77,15 @@ No caso de uma evolução na solução, como por exemplo aplicar diferentes conf
 É o serviço que expõe o endpoint /password/validate.
 Desenvolvido em ASP.NET Core, segue a organização do namespace Validation com o ValidationController.
 Usa as bibliotecas Newtonsoft para manipulação de JSON e Swashbuckle para scaffolding do Swagger.
+
+## Como executar
+
+- git clone https://github.com/AlvBarros/itivalidator
+- cd itivalidator/Validation/Validation
+- dotnet build
+- cd ../../ItiChallengeApi
+- dotnet restore
+- dotnet run
+
+Com isso, basta ir até https://localhost:5001/swagger/index.html para verificar os endpoints e na opção "Try it out", testar a API.
+> **_Nota:_**  O comando "dotnet restore" recupera pacotes NuGet e pode não funcionar caso esteja atrás de um proxy/firewall.
