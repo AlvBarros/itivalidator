@@ -424,19 +424,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/t729605/.nuget/packages/": {}
+    "C:\\Users\\alvba\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/t729605/Desktop/itivalidator/ItiChallengeApi/ItiChallengeApi.csproj",
+      "projectUniqueName": "C:\\Users\\alvba\\Desktop\\itivalidator\\ItiChallengeApi\\ItiChallengeApi.csproj",
       "projectName": "ItiChallengeApi",
-      "projectPath": "/Users/t729605/Desktop/itivalidator/ItiChallengeApi/ItiChallengeApi.csproj",
-      "packagesPath": "/Users/t729605/.nuget/packages/",
-      "outputPath": "/Users/t729605/Desktop/itivalidator/ItiChallengeApi/obj/",
+      "projectPath": "C:\\Users\\alvba\\Desktop\\itivalidator\\ItiChallengeApi\\ItiChallengeApi.csproj",
+      "packagesPath": "C:\\Users\\alvba\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alvba\\Desktop\\itivalidator\\ItiChallengeApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/t729605/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\alvba\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -446,10 +446,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj": {
-              "projectPath": "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj"
+            "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation\\Validation.csproj": {
+              "projectPath": "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation\\Validation.csproj"
             }
           }
         }
@@ -462,7 +461,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
@@ -487,12 +485,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -501,7 +493,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

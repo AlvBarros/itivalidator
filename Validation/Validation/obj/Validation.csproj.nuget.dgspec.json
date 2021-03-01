@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj": {}
+    "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation\\Validation.csproj": {}
   },
   "projects": {
-    "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj": {
+    "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation\\Validation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj",
+        "projectUniqueName": "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation\\Validation.csproj",
         "projectName": "Validation",
-        "projectPath": "/Users/t729605/Desktop/itivalidator/Validation/Validation/Validation.csproj",
-        "packagesPath": "/Users/t729605/.nuget/packages/",
-        "outputPath": "/Users/t729605/Desktop/itivalidator/Validation/Validation/obj/",
+        "projectPath": "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation\\Validation.csproj",
+        "packagesPath": "C:\\Users\\alvba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alvba\\Desktop\\itivalidator\\Validation\\Validation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/t729605/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\alvba\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -24,7 +24,6 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -36,7 +35,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -55,7 +53,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
