@@ -23,20 +23,30 @@ namespace Validation.Tests.Password
         public void ValidatePasswords_ValidPassword()
         {
             var passwordValidator = BuildPasswordValidator();
-            Assert.True(passwordValidator.Validate(VALID_PASSWORD), "Valid password");
-            Assert.True(passwordValidator.Validate(LONG_PASSWORD), "Longer valid password");
+            Assert.True(passwordValidator.Validate(VALID_PASSWORD), "Valid password - PasswordValidator");
+            Assert.True(new Validation.Password.Password(VALID_PASSWORD).IsValid, "Valid password - Password");
+            Assert.True(passwordValidator.Validate(LONG_PASSWORD), "Long password - PasswordValidator");
+            Assert.True(new Validation.Password.Password(LONG_PASSWORD).IsValid, "Long password - Password");
         }
 
         [Fact]
         public void ValidatePasswords_InvalidPasswords()
         {
             var passwordValidator = BuildPasswordValidator();
-            Assert.False(passwordValidator.Validate(SHORT_PASSWORD), "Password too short");
-            Assert.False(passwordValidator.Validate(NO_UPPERCASE), "Password must have at least one uppercase letter");
-            Assert.False(passwordValidator.Validate(NO_LOWERCASE), "Password must have at least one lowercase letter");
-            Assert.False(passwordValidator.Validate(NO_SPECIAL), "Password must have at least one special character");
-            Assert.False(passwordValidator.Validate(REPEATED_CHARACTERS), "Password must not have any repeated characters");
-            Assert.False(passwordValidator.Validate(CONTAINS_WHITESPACE), "Password must not contain any whitespace");
+            // PasswordValidator
+            Assert.False(passwordValidator.Validate(SHORT_PASSWORD), "Password too short - PasswordValidator");
+            Assert.False(passwordValidator.Validate(NO_UPPERCASE), "Password must have at least one uppercase letter - PasswordValidator");
+            Assert.False(passwordValidator.Validate(NO_LOWERCASE), "Password must have at least one lowercase letter - PasswordValidator");
+            Assert.False(passwordValidator.Validate(NO_SPECIAL), "Password must have at least one special character - PasswordValidator");
+            Assert.False(passwordValidator.Validate(REPEATED_CHARACTERS), "Password must not have any repeated characters - PasswordValidator");
+            Assert.False(passwordValidator.Validate(CONTAINS_WHITESPACE), "Password must not contain any whitespace - PasswordValidator");
+            // Password
+            Assert.False(new Validation.Password.Password(SHORT_PASSWORD).IsValid, "Password too short - PasswordValidator");
+            Assert.False(new Validation.Password.Password(NO_UPPERCASE).IsValid, "Password must have at least one uppercase letter - PasswordValidator");
+            Assert.False(new Validation.Password.Password(NO_LOWERCASE).IsValid, "Password must have at least one lowercase letter - PasswordValidator");
+            Assert.False(new Validation.Password.Password(NO_SPECIAL).IsValid, "Password must have at least one special character - PasswordValidator");
+            Assert.False(new Validation.Password.Password(REPEATED_CHARACTERS).IsValid, "Password must not have any repeated characters - PasswordValidator");
+            Assert.False(new Validation.Password.Password(CONTAINS_WHITESPACE).IsValid, "Password must not contain any whitespace - PasswordValidator");
         }
     }
 }
