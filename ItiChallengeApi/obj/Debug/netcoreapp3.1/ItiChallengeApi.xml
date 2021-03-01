@@ -9,7 +9,7 @@
             This controller is responsible for doing validations on varied inputs.
             </summary>
         </member>
-        <member name="M:ItiChallengeApi.Validation.ValidationController.ValidatePassword(Newtonsoft.Json.Linq.JObject)">
+        <member name="M:ItiChallengeApi.Validation.ValidationController.ValidatePassword(ItiChallengeApi.Validation.ValidationController.ValidatePasswordRequest)">
             <summary>
             This POST method returns if the given object contains a valid password.
             </summary>

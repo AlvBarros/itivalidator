@@ -28,10 +28,9 @@ namespace ItiChallengeApi.Validation
         /// </summary>
         /// <returns>Either true or false</returns>
         [HttpPost("/password")]
-        public bool ValidatePassword(JObject dto)
+        public ValidatePasswordResponse ValidatePassword(ValidatePasswordRequest request)
         {
-            Console.WriteLine(dto["password"]);
-            return new Password("password").IsValid;
+            return new ValidatePasswordResponse(new Password(request.Password).IsValid);
         }
     }
 }
